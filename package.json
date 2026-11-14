@@ -1,0 +1,15 @@
+{
+  "name": "learn-homework-6",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "demo": "node src/check.js"
+  },
+  "dependencies": { "react": "19.3.1", "react-dom": "19.3.1" },
+  "devDependencies": { "vite": "8.3.8", "@vitejs/plugin-react": "6.3.0" }
+}
