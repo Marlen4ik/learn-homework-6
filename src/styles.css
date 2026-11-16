@@ -1,7 +1,25 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+    font-size: 18px;       
+    line-height: 1.6;      
+    font-family: sans-serif;
+    color: #222222;              
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px 16px;
 }
-
 /* TODO: добавь отступы, ограничение ширины и удобный размер текста.
    Проверь длинные названия и узкий экран. */
+h1, h2, h3, p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-family: sans-serif;
+    
+}
+
+
+   
